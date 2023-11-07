@@ -1,4 +1,4 @@
-<h1>SQL injection detection</h1>h1>
+<h1>SQL injection detection</h1>
 
 # IN BAND (Classic)
 
