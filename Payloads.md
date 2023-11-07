@@ -4,15 +4,14 @@
 
 # UNION BASED
 
-#
-# "--" Symbol Alternative
- 
- # — 	Inline comment
-# '#'	Inline comment
-# /* 	Block comment
-# */ 	Block comment
 
-
+"--" Symbol Alternative
+```
+— 	Inline comment
+#	Inline comment
+/* 	Block comment
+*/ 	Block comment
+```
 # Column enumeration 
 
 ======================================================================================================================================================================
@@ -84,6 +83,15 @@ ERROR BASED
 \
 \\
 ;
+```
+BOOLEAN BASED
+```
+1 AND 1
+2 OR 3
+2-1
+2^1
+3*1
+
 ```
 Other Resources:
 https://www.w3schools.com/sql/sql_comments.asp
