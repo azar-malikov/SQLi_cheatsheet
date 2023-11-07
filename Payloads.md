@@ -96,5 +96,9 @@ BOOLEAN BASED
 1>2
 3
 ```
+TİME BASED
+```
+
+```
 Other Resources:
 https://www.w3schools.com/sql/sql_comments.asp
