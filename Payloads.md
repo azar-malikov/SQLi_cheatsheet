@@ -91,7 +91,10 @@ BOOLEAN BASED
 2-1
 2^1
 3*1
-
+%15
+1=2
+1>2
+3
 ```
 Other Resources:
 https://www.w3schools.com/sql/sql_comments.asp
