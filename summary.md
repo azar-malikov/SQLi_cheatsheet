@@ -6,7 +6,7 @@
 
 SQL injection istifadəçinin məlumat daxil etməsi üçün nəzərdə tutulmuş hissələrdə(sorğularda) SQL verilənlər bazasına aid kodların daxil edilməsi və bu kodların SQL verilənlər bazasında icra olunmasına deyilir.
 
-SQL injection 3 qrupa ayrılmaqla 5 yerə bölünür:
+SQL injection 3 qrupa ayrılmaqla 5 növü var:
 
 1.UNION BASED         2.ERROR BASED          3.BOOLEAN BASED       4.TIME BASED   5.OUT-OF-BAND
 
