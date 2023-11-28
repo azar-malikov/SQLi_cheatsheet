@@ -41,7 +41,7 @@ BOOLEAN BASED SQL injection doğru yanlış sorğular arasında yaranan fərqli 
 
 TIME BASED SQLi nədir ?
 
-TIME BASED SQL injection zaman operatorları istifadə etməklə SQL sorğusuna gəlmə zamanı ilə müəyyən olunan BLİND(İnferential) SQL injection növüdür.
+TIME BASED SQL injection zaman operatorları istifadə etməklə SQL sorğusuna cavabın gəlmə zamanı ilə müəyyən olunan BLİND(İnferential) SQL injection növüdür.
 
 
 ===========================================================================================
