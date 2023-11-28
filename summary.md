@@ -48,5 +48,5 @@ TIME BASED SQL injection zaman operatorları istifadə etməklə SQL sorğusuna 
 
 OUT-OF-BAND SQLi nədir ?
 
-OUT-OF-BAND SQL injection elə SQLi növüdür ki boşluğu müəyyən etmək üçün eyni kanaldan (nümünə eyni http sorğudan) istifadə edilmir və burada məlumat sorğunun nəticəsi 3 tərəfə göndərilməklə öyrənilir.(Əsasən HTTP,DNS,NTP ... protokollarından istifadə olunur)   
+OUT-OF-BAND SQL injection elə SQLi növüdür ki boşluğu müəyyən etmək üçün eyni kanaldan (nümünə eyni http sorğudan) istifadə edilmir və burada məlumat, sorğunun nəticəsi 3 tərəfə göndərilməklə öyrənilir.(Əsasən HTTP,DNS,NTP ... protokollarından istifadə olunur)   
 
